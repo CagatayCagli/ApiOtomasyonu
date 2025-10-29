@@ -1,0 +1,15 @@
+# Trello API Configuration Example
+# Copy this file to api.properties and replace the values with your actual API credentials
+
+# Get your API key from: https://trello.com/app-key
+trello.api.key=YOUR_API_KEY_HERE
+
+# Get your token from: https://trello.com/1/authorize?key=YOUR_API_KEY&response_type=token&scope=read,write&expiration=never&name=TrelloAPI
+# Replace YOUR_API_KEY with your actual API key in the URL above
+trello.api.token=YOUR_API_TOKEN_HERE
+
+# Instructions:
+# 1. Copy this file to api.properties
+# 2. Replace YOUR_API_KEY_HERE with your actual Trello API key
+# 3. Replace YOUR_API_TOKEN_HERE with your actual Trello API token
+# 4. Save the file and run the tests

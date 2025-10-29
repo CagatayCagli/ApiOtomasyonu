@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trello API Test Suite" verbose="1">
+    <test name="Trello API Automation Tests">
+        <classes>
+            <class name="com.trello.api.tests.TrelloApiTestNGTest">
+                <methods>
+                    <include name="testCreateBoard"/>
+                    <include name="testCreateCards"/>
+                    <include name="testUpdateRandomCard"/>
+                    <include name="testDeleteCards"/>
+                    <include name="testDeleteBoard"/>
+                    <include name="testSummary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
